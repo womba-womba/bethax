@@ -1,17 +1,18 @@
 nav.navbar.is-info
-    .navbar-brand
-        a.navbar-item(href="/")
-            h1.title BetHAX
-            //img(src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28")
-        .navbar-burger.burger(data-target="navbarMain")
-            span
-            span
-            span
-    #navbarMain.navbar-menu
-        .navbar-end
+    .container.is-widescreen
+        .navbar-brand
             a.navbar-item(href="/")
-                | Oddsjämförelse
-            a.navbar-item(href="/")
-                | Välkomstbonusar
-            a.navbar-item(href="/")
-                | Guide
+                h1.title BetHAX
+                //img(src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28")
+            .navbar-burger.burger(data-target="navbarMain")
+                span
+                span
+                span
+        #navbarMain.navbar-menu
+            .navbar-end
+                a.navbar-item(href="/")
+                    | Oddsjämförelse
+                a.navbar-item(href="/welcomebonuses")
+                    | Välkomstbonusar
+                a.navbar-item(href="/")
+                    | Guide

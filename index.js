@@ -11,5 +11,8 @@ app.set('view engine', 'pug');
 app.get('/', function (req, res) {
   res.render('index')
 })
+app.get('/welcomebonuses', function (req, res) {
+  res.render('welcomebonuses')
+})
 
 app.listen(PORT, () => console.log(`Listening on ${ PORT }`));
